@@ -23,8 +23,8 @@ def standardDeviation(AnyList):
     :param AnyList: Any numeric list
     :return:
     """
-    anyListLen             = len(AnyList)          #Listemin Boyutu     N
-    responseAvarageList    = avarageList(AnyList) #Listemin Ortalaması X'
+    anyListLen             = len(AnyList)          #Size of List     N
+    responseAvarageList    = avarageList(AnyList)  #Avareage of List X'
     sumList                = 0
 
     for i in range(anyListLen):
